@@ -1,0 +1,11 @@
+{
+  "development": {
+    "mySwap": "0x205F43270d5C06e16b3Ca0A59B7e6AE3C32C1B63"
+  },
+  "mumbai": {
+    "mySwap": ""
+  },
+  "polygon": {
+    "mySwap": ""
+  }
+}
