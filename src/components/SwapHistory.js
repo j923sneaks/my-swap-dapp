@@ -87,8 +87,17 @@ const SwapHistory = () => {
                   <StyledTableCell>{shortAddress(item.swapAddress)}</StyledTableCell>
                   <StyledTableCell>{item.swapWith}</StyledTableCell>
                   <StyledTableCell>
-                    <Typography variant="caption" component="span" color="warning.main">You</Typography>
-                    <Box component="div" sx={{ ...flexRowStyle, flexDirection: activeTab === 0 ? 'row' : 'row-reverse', justifyContent: 'left' }}>
+                    <Typography variant="caption" component="span" color="warning.main">
+                      You
+                    </Typography>
+                    <Box
+                      component="div"
+                      sx={{
+                        ...flexRowStyle,
+                        flexDirection: activeTab === 0 ? 'row' : 'row-reverse',
+                        justifyContent: 'left'
+                      }}
+                    >
                       <Typography component="span">
                         {web3.utils.fromWei(item.token1.amount)} {item.token1.symbol}
                       </Typography>

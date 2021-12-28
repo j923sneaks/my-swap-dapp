@@ -8547,33 +8547,15 @@
   "ast": {
     "absolutePath": "project:/contracts/MySwap.sol",
     "exportedSymbols": {
-      "Context": [
-        670
-      ],
-      "ERC20": [
-        545
-      ],
-      "IERC20": [
-        623
-      ],
-      "IERC20Metadata": [
-        648
-      ],
-      "MySwap": [
-        1002
-      ],
-      "SwapDetails": [
-        1475
-      ],
-      "SwapRequest": [
-        1280
-      ],
-      "SwapRequestState": [
-        1420
-      ],
-      "TokenDetails": [
-        1485
-      ]
+      "Context": [670],
+      "ERC20": [545],
+      "IERC20": [623],
+      "IERC20Metadata": [648],
+      "MySwap": [1002],
+      "SwapDetails": [1475],
+      "SwapRequest": [1280],
+      "SwapRequestState": [1420],
+      "TokenDetails": [1485]
     },
     "id": 1003,
     "license": "MIT",
@@ -8581,24 +8563,13 @@
     "nodes": [
       {
         "id": 705,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.4",
-          ".22",
-          "<",
-          "0.9",
-          ".0"
-        ],
+        "literals": ["solidity", ">=", "0.4", ".22", "<", "0.9", ".0"],
         "nodeType": "PragmaDirective",
         "src": "33:32:5"
       },
       {
         "id": 706,
-        "literals": [
-          "experimental",
-          "ABIEncoderV2"
-        ],
+        "literals": ["experimental", "ABIEncoderV2"],
         "nodeType": "PragmaDirective",
         "src": "67:33:5"
       },
@@ -8678,15 +8649,11 @@
         "abstract": false,
         "baseContracts": [],
         "canonicalName": "MySwap",
-        "contractDependencies": [
-          1280
-        ],
+        "contractDependencies": [1280],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1002,
-        "linearizedBaseContracts": [
-          1002
-        ],
+        "linearizedBaseContracts": [1002],
         "name": "MySwap",
         "nameLocation": "382:6:5",
         "nodeType": "ContractDefinition",
@@ -9140,9 +9107,7 @@
               "src": "956:397:5",
               "statements": [
                 {
-                  "assignments": [
-                    765
-                  ],
+                  "assignments": [765],
                   "declarations": [
                     {
                       "constant": false,
@@ -9344,9 +9309,7 @@
                   "src": "967:100:5"
                 },
                 {
-                  "assignments": [
-                    779
-                  ],
+                  "assignments": [779],
                   "declarations": [
                     {
                       "constant": false,
@@ -10999,9 +10962,7 @@
               "src": "2185:1133:5",
               "statements": [
                 {
-                  "assignments": [
-                    907
-                  ],
+                  "assignments": [907],
                   "declarations": [
                     {
                       "constant": false,
@@ -11147,9 +11108,7 @@
                     "src": "2334:946:5",
                     "statements": [
                       {
-                        "assignments": [
-                          930
-                        ],
+                        "assignments": [930],
                         "declarations": [
                           {
                             "constant": false,
@@ -11264,17 +11223,7 @@
                         "src": "2349:55:5"
                       },
                       {
-                        "assignments": [
-                          939,
-                          941,
-                          943,
-                          945,
-                          947,
-                          949,
-                          951,
-                          953,
-                          955
-                        ],
+                        "assignments": [939, 941, 943, 945, 947, 949, 951, 953, 955],
                         "declarations": [
                           {
                             "constant": false,
@@ -12195,9 +12144,7 @@
                   },
                   "id": 997,
                   "initializationExpression": {
-                    "assignments": [
-                      917
-                    ],
+                    "assignments": [917],
                     "declarations": [
                       {
                         "constant": false,
@@ -12462,33 +12409,15 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/MySwap.sol",
     "exportedSymbols": {
-      "Context": [
-        670
-      ],
-      "ERC20": [
-        545
-      ],
-      "IERC20": [
-        623
-      ],
-      "IERC20Metadata": [
-        648
-      ],
-      "MySwap": [
-        1002
-      ],
-      "SwapDetails": [
-        1475
-      ],
-      "SwapRequest": [
-        1280
-      ],
-      "SwapRequestState": [
-        1420
-      ],
-      "TokenDetails": [
-        1485
-      ]
+      "Context": [670],
+      "ERC20": [545],
+      "IERC20": [623],
+      "IERC20Metadata": [648],
+      "MySwap": [1002],
+      "SwapDetails": [1475],
+      "SwapRequest": [1280],
+      "SwapRequestState": [1420],
+      "TokenDetails": [1485]
     },
     "id": 1003,
     "license": "MIT",
@@ -12496,24 +12425,13 @@
     "nodes": [
       {
         "id": 705,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.4",
-          ".22",
-          "<",
-          "0.9",
-          ".0"
-        ],
+        "literals": ["solidity", ">=", "0.4", ".22", "<", "0.9", ".0"],
         "nodeType": "PragmaDirective",
         "src": "33:32:5"
       },
       {
         "id": 706,
-        "literals": [
-          "experimental",
-          "ABIEncoderV2"
-        ],
+        "literals": ["experimental", "ABIEncoderV2"],
         "nodeType": "PragmaDirective",
         "src": "67:33:5"
       },
@@ -12593,15 +12511,11 @@
         "abstract": false,
         "baseContracts": [],
         "canonicalName": "MySwap",
-        "contractDependencies": [
-          1280
-        ],
+        "contractDependencies": [1280],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1002,
-        "linearizedBaseContracts": [
-          1002
-        ],
+        "linearizedBaseContracts": [1002],
         "name": "MySwap",
         "nameLocation": "382:6:5",
         "nodeType": "ContractDefinition",
@@ -13055,9 +12969,7 @@
               "src": "956:397:5",
               "statements": [
                 {
-                  "assignments": [
-                    765
-                  ],
+                  "assignments": [765],
                   "declarations": [
                     {
                       "constant": false,
@@ -13259,9 +13171,7 @@
                   "src": "967:100:5"
                 },
                 {
-                  "assignments": [
-                    779
-                  ],
+                  "assignments": [779],
                   "declarations": [
                     {
                       "constant": false,
@@ -14914,9 +14824,7 @@
               "src": "2185:1133:5",
               "statements": [
                 {
-                  "assignments": [
-                    907
-                  ],
+                  "assignments": [907],
                   "declarations": [
                     {
                       "constant": false,
@@ -15062,9 +14970,7 @@
                     "src": "2334:946:5",
                     "statements": [
                       {
-                        "assignments": [
-                          930
-                        ],
+                        "assignments": [930],
                         "declarations": [
                           {
                             "constant": false,
@@ -15179,17 +15085,7 @@
                         "src": "2349:55:5"
                       },
                       {
-                        "assignments": [
-                          939,
-                          941,
-                          943,
-                          945,
-                          947,
-                          949,
-                          951,
-                          953,
-                          955
-                        ],
+                        "assignments": [939, 941, 943, 945, 947, 949, 951, 953, 955],
                         "declarations": [
                           {
                             "constant": false,
@@ -16110,9 +16006,7 @@
                   },
                   "id": 997,
                   "initializationExpression": {
-                    "assignments": [
-                      917
-                    ],
+                    "assignments": [917],
                     "declarations": [
                       {
                         "constant": false,
